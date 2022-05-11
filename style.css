@@ -1,9 +1,14 @@
-h1{ color: #red;
+h1{ color: red;
 	font-size: 30px;
+	text-align: center;
 }
 
-h2{ color: vert;
+h2{ color: #00E82D;
 	font-size: 25px;
+	text-align: center;
+}
+#nav ul{
+	text-align: center;
 }
 #nav li{
 	display: inline;
@@ -11,18 +16,23 @@ h2{ color: vert;
 }
 #nav a {
 	display: inline-block;
-	margin: 12px;
+	margin: 20px;
 	background:#FA100D;/*couleur de fond */
-	width: auto;
+	width: 350px;
 	text-decoration: none; /* pas d'héritage avec effet souligné */
-	height: 30px; /* hauteur */
+	height: 20px; /* hauteur */
 	line-height: 10 40 10 40px;/* interligne */
-	padding: 0 50px; /* marge intérieur */
+	padding: 20px; /* marge intérieur */
 	font-family: sans-serif; /* police d'ecriture */
 	font-size: 25px; /* taille du texte */
+	color: black;
+	border-radius: 15px;
+	text-align: center;
+	display: center;
 }
 
 #nav a:hover{background:white;
+			text-align: center;
 }
 
 table{ 
@@ -53,7 +63,7 @@ caption{
 	background-color: #DDF500;
 }
 
-#nav li{ display: inline;
+#nav li{ display: inline-block;
 
 }
 
