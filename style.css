@@ -1,0 +1,60 @@
+h1{ color: #red;
+	font-size: 30px;
+}
+
+h2{ color: vert;
+	font-size: 25px;
+}
+#nav li{
+	display: inline;
+	list-style: none;/* necessaire pour IET */
+}
+#nav a {
+	display: inline-block;
+	margin: 12px;
+	background:#FA100D;/*couleur de fond */
+	width: auto;
+	text-decoration: none; /* pas d'héritage avec effet souligné */
+	height: 30px; /* hauteur */
+	line-height: 10 40 10 40px;/* interligne */
+	padding: 0 50px; /* marge intérieur */
+	font-family: sans-serif; /* police d'ecriture */
+	font-size: 25px; /* taille du texte */
+}
+
+#nav a:hover{background:white;
+}
+
+table{ 
+	border: 1px solid black;
+}
+
+tr{		
+	background-color:
+}
+
+td{ border: 1px solid black;
+
+}
+
+
+th{ border: 1px solid black;
+
+}
+
+caption{
+		font-size: 30px;
+		color: red;
+		text-decoration: underline;
+		padding-bottom: 10px
+}
+
+#pausedemidi{
+	background-color: #DDF500;
+}
+
+#nav li{ display: inline;
+
+}
+
+
