@@ -1,0 +1,121 @@
+#pageglobal: { width: 80%;
+}
+
+
+h1{ color: red;
+	font-size: 30px;
+	text-align:; /* pour centré ajouter center à textalign*/
+}
+
+h2{ color: #00E82D;
+	font-size: 25px;
+	text-align:;
+}
+
+
+
+table{ text-align: center;
+		margin-left: 300px;
+}
+
+#menu{
+	padding: 0; margin: 0;
+	text-align: center;
+}
+#menu li{
+	display: inline;
+	list-style: none;/* necessaire pour IET */
+}
+#menu a {
+	display: inline-block;
+	margin: 0 40 3 40px;
+	background:#FA100D;/*couleur de fond */
+	width: 150px;
+	text-decoration: none; /* pas d'héritage avec effet souligné */
+	height: 40px; /* hauteur */
+	line-height: 10 50 3 50px;/* interligne */
+	padding: 0 50px; /* marge intérieur */
+	font-family: sans-serif; /* police d'ecriture */
+	font-size: 25px; /* taille du texte */
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	display: center;
+}
+
+#menu a:hover{background:white;
+			text-align: center;
+}
+
+table{ 
+	border: 1px solid black;
+}
+
+tr{		
+	background-color:
+}
+
+td{ border: 1px solid black;
+
+}
+
+
+th{ border: 1px solid black;
+
+}
+
+caption{
+		font-size: 30px;
+		color: red;
+		text-decoration: underline;
+		padding-bottom: 10px
+}
+
+#pausedemidi{
+	background-color: #DDF500;
+}
+
+#nav li{ display: inline-block;
+
+}
+
+fieldset {
+	margin-bottom: 15px;
+	padding: 10;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+legend {
+	padding: 0px 3px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+label {
+	width: 110px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 6px;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+
+input:focus {
+	background: #F69860;
+}
+
+input{ 
+	vertical-align: baseline;
+	padding: 2px;
+	margin: 2px;
+}
+
+
+
+
